@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto&display=swap%27");
+* {
+  border: 1px black solid;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d1891c;
+  font-size: 2vw;
+  padding: 1vw 2vw;
+}
+
+h1 {
+  background-color: #00669f;
+  box-shadow: 0 1vw 0 0 black;
+  color: white;
+  font-size: 4vw;
+  padding: 3vw 2vw;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+  font-weight: lighter;
+}
+
+.Añadir {
+  border-radius: 50% 50%;
+  padding: 2vw 2vw;
+  height: 12vw;
+  width: 12vw;
+  background-color: #00669f;
+  position: fixed;
+  bottom: 6vh;
+  right: 10vw;
+  z-index: 10;
+}
+
+.padre-cartas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 200vh;
+}
+
+.cartas {
+  background-color: #f3f3f3;
+  height: 55vh;
+  width: 70vw;
+  border-radius: 20px 20px 0 0;
+}
