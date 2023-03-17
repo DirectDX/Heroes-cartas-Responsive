@@ -3,22 +3,22 @@
   border: 1px black solid;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
   background-color: #d1891c;
-  font-size: 2vw;
-  padding: 1vw 2vw;
+  font-size: 4vw;
+  padding: 1vh 3vw;
 }
 
 h1 {
   background-color: #00669f;
   box-shadow: 0 1vw 0 0 black;
   color: white;
-  font-size: 4vw;
-  padding: 3vw 2vw;
+  font-size: 6vw;
+  padding: 2.5vh 3vw;
   position: sticky;
   top: 0px;
   z-index: 5;
@@ -42,13 +42,149 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 100vw;
-  height: 200vh;
+  width: auto;
+  height: 240vh;
 }
 
 .cartas {
+  text-align: center;
+  padding: 3vw;
+  flex-direction: column;
+  display: flex;
   background-color: #f3f3f3;
-  height: 55vh;
-  width: 70vw;
+  height: 65vh;
+  width: 80vw;
   border-radius: 20px 20px 0 0;
 }
+
+.corazon {
+  width: 8vw;
+  height: 8vw;
+}
+
+.img-superheroe {
+  margin-top: 25%;
+  height: 29vw;
+  width: 29vw;
+  align-self: center;
+}
+
+.padre-texto {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 7vw;
+}
+p {
+  color: #333333;
+  font-size: 4vw;
+  text-align: left;
+}
+.ver-mas {
+  border-radius: 3px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #00669f;
+  width: 30vw;
+  height: 5vh;
+}
+
+#Batman {
+  background-image: url(../img/Batman-fondo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#Muj-Marav {
+  background-image: url(../img/MujMara-fondo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#Superman {
+  background-image: url(../img/Superman-fondo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#Harley {
+  background-image: url(../img/Fondo-harley.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.puffSuper{
+  display:none;
+}
+
+footer { 
+  padding: 5vw;
+  align-items: center;
+  display: flex;
+justify-content: center;
+  font-size: 2.3vw;
+  text-align: center;
+  color: white;
+  background-color: #00669f;
+  width: auto;
+  height: 5vh;
+}
+.arreglo {
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  display: flex;
+  width: 15vw;
+  justify-self: end;
+}
+
+@media (min-width: 460px) {
+  header {
+font-size: 3vw;
+  }
+
+  .padre-cartas {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150vh;
+  }
+
+  .cartas {
+    width: 45vw;
+  }
+  .img-superheroe {
+    margin-top: 10%;
+    width: 20vw;
+  }
+h2 {
+  font-size: 4vw;
+}
+  p {
+    font-size: 2.3vw;
+  }
+  .puffSuper {
+    display: flex;
+  }
+  .Añadir {
+    padding: 1.3vw;
+    bottom: 8.2vh;
+    right: 4vw;
+    width: 8vw;
+    height: 8vw;
+  }
+  .corazon {
+    width: 5vw;
+    height: 5vw;
+  }
+  .acto2 {
+    display: none;
+  }
+}
+
