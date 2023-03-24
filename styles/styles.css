@@ -13,7 +13,7 @@ header {
   padding: 1vh 3vw;
 }
 
-h1 {
+.h1-principal {
   background-color: #00669f;
   box-shadow: 0 5px 8px 0 gray;
   color: white;
@@ -35,6 +35,9 @@ h1 {
   bottom: 7vh;
   right: 10vw;
   z-index: 10;
+}
+.Añadir:hover {
+  background-color: #001D2D;
 }
 
 .padre-cartas {
@@ -295,7 +298,7 @@ footer {
     font-size: 1.7vw;
   }
   p {
-    font-size: 50%;
+    font-size: 15px;
   }
   .ver-mas {
     height: 10%;
